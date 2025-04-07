@@ -72,17 +72,17 @@ const Header = () => {
             </button>
           ) : (
             <div className="flex gap-2">
-              {/* <Link to="/login"
+              <Link to="/login"
                 className="bg-blue-600 text-white text-sm px-3 py-1.5 rounded-md hover:bg-blue-700 transition"
                 onClick={() => set}
               >
                 Login
-              </Link> */}
-              <button
+              </Link>
+              {/* <button
                 onClick={() => setIsModalOpen(true)}
                 className="bg-blue-600 text-white text-sm px-3 py-1.5 rounded-md hover:bg-blue-700 transition">
                 Login
-              </button>
+              </button> */}
               <Link
                 to="/register"
                 className="bg-blue-600 text-white text-sm px-3 py-1.5 rounded-md hover:bg-blue-700 transition"
@@ -94,7 +94,7 @@ const Header = () => {
         </div>
       </div>
       {/* Login Modal */}
-      {isModalOpen && <LoginModal closeModal={() => setIsModalOpen(false)} />}
+      {/* {isModalOpen && <LoginModal closeModal={() => setIsModalOpen(false)} />} */}
     </header>
   );
 };

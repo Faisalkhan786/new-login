@@ -61,7 +61,7 @@ const RegistrationPage = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full p-3 border rounded-xl mt-1 focus:ring-2 focus:ring-blue-500"
+                className="w-full text-black p-3 border rounded-xl mt-1 focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter your full name"
               />
             </div>
@@ -73,7 +73,7 @@ const RegistrationPage = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full p-3 border rounded-xl mt-1 focus:ring-2 focus:ring-blue-500"
+                className="w-full text-black p-3 border rounded-xl mt-1 focus:ring-2 focus:ring-blue-500"
                 placeholder="Enter your email"
               />
             </div>
