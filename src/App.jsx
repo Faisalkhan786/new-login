@@ -26,10 +26,10 @@ function App() {
       <ToastContainer position="top-right" autoClose={3000} />
       <BrowserRouter>
         <Routes>
+          {/* This is ne router */}
           <Route path='/' element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path='login' element={<LoginPage />} />
-            {/* <Route path='login' element={<LoginPage />} /> */}
             <Route path='register' element={<RegistrationPage />} />
             <Route path='blog' element={<Blog />} />
             <Route path='about' element={<About />} />
