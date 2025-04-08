@@ -13,10 +13,10 @@ const Header = () => {
     <header className="flex border-b py-3 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[65px] tracking-wide relative z-50">
       <div className="flex flex-wrap items-center gap-4 max-w-screen-xl mx-auto w-full">
         {/* Logo */}
-        <Link to="/" className="max-sm:hidden">
+        {/* <Link to="/" className="max-sm:hidden">
           <img src="https://readymadeui.com/readymadeui.svg" alt="logo" className="w-32" />
-        </Link>
-        <Link to="/" className="hidden max-sm:block">
+        </Link> */}
+        <Link to="/" className=" max-sm:block">
           <img src="https://readymadeui.com/readymadeui-short.svg" alt="logo" className="w-8" />
         </Link>
 

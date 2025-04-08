@@ -79,7 +79,7 @@ const Footer = () => {
 
       <div className="border-t text-center border-[#6b5f5f] pt-4 mt-8">
         <p className="text-gray-300 text-[15px]">
-          © ReadymadeUI. All rights reserved.
+          © Harshwardhan. All rights reserved.
         </p>
       </div>
     </footer>
